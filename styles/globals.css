@@ -1,0 +1,11 @@
+a { cursor: pointer; }
+
+.app-container {
+    min-height: 350px;
+}
+
+.btn-delete-user {
+    width: 40px;
+    text-align: center;
+    box-sizing: content-box;
+}
