@@ -3,9 +3,9 @@ import Head from 'next/head';
 import 'styles/globals.css';
 import { Nav, Alert } from 'components';
 
-export default MyApp;
+export default App;
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
     return (
         <>
             <Head>
