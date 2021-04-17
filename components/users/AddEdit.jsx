@@ -41,8 +41,8 @@ function AddEdit(props) {
     });
     const formOptions = { resolver: yupResolver(validationSchema) };
 
-    // set default form values if user passed in props
-    if (user) {
+    // set default form values if in edit mode
+    if (!isAddMode) {
         const { password, confirmPassword, ...defaultValues } = user;
         formOptions.defaultValues = defaultValues;
     }
